@@ -11,3 +11,13 @@
 ### that is Default Network IP change every time
 
 ### but my script get the changes ip every time when i run the script
+
+# How to use it
+
+### open windows terminal and run this
+
+### some dependencies required before doing this. that is please make sure you run your ftp server on your Network Gateway that can get access your ftp server
+
+1. Download Project From This url : `https://github.com/hamzazahidulislam/ftp-powershell-explorer-script`
+2. Go To Project Directory `cd ftp-powershell-explorer-script`
+3. Finally Run The Project `.\script.ps1`

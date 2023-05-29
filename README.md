@@ -21,3 +21,9 @@
 1. Download Project From This url : `https://github.com/hamzazahidulislam/ftp-powershell-explorer-script`
 2. Go To Project Directory `cd ftp-powershell-explorer-script`
 3. Finally Run The Project `.\script.ps1`
+
+# Presentation of this script in GUI and with script
+
+![1](./powershell.gif)
+
+![2](./powershell-2.gif)

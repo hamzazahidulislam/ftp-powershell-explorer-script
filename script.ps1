@@ -16,5 +16,4 @@ function Get-DefaultGateway {
 $defaultGateway = Get-DefaultGateway
 Write-Output $defaultGateway
 
-# $first = "\temp"
-# start explorer.exe "C:\Users\Hp\Desktop $first" 
+start explorer.exe "ftp://$defaultGateway:5000/" 

@@ -15,5 +15,6 @@ function Get-DefaultGateway {
 
 $defaultGateway = Get-DefaultGateway
 Write-Output $defaultGateway
-
-start explorer.exe "ftp://$defaultGateway:5000/" 
+Write-Output "ftp://$(Get-DefaultGateway):5000/"
+# ftp://192.168.27.137:5000/
+start explorer.exe "ftp://$(Get-DefaultGateway):5000/"
